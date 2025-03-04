@@ -118,7 +118,6 @@ async def ping(_, e: Message):
 # Broadcasting Function with DM and Group Messages
 @bot.on_message(filters.command("broadcast") & filters.user(DEVS))
 async def broadcast(_, msg: Message):
-    # Ensure the message is from a developer
     if len(msg.command) < 2:
         await msg.reply_text("Please provide a message to broadcast.")
         return
@@ -154,6 +153,7 @@ async def broadcast(_, msg: Message):
         f"Sent to {total_sent_dm} users' DMs, Failed to send to {failed_sent_dm} users.\n"
         f"Sent to {total_sent_group} groups, Failed to send to {failed_sent_group} groups."
     )
+
 
 
 @bot.on_message(filters.command(["help", "start"]))
