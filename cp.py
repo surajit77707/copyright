@@ -24,11 +24,7 @@ DEVS = [1883889098, 7921906677]
 BOT_USERNAME = "banxeditbot" # change your bot username without 
 OWNER_ID = 7638575366
 
-ALL_GROUPS = []
-TOTAL_USERS = []
-MEDIA_GROUPS = []
-DISABLE_CHATS = []
-GROUP_MEDIAS = {}
+
 
 DELETE_KEYWORDS = ["baap", "beta", "Batichod", "hydrogen", "energy", "Gand", "papa", "porn", "xxx", "sex", "Bahenchod", "XII", "page", "Madarchod", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt"]
 
@@ -130,15 +126,7 @@ async def restart_(_, e: Message):
     os.execl(sys.executable, *args)
     quit()
 
-@bot.on_message(filters.user(OWNER_ID) & filters.command(["stat", "stats"]))
-async def status(_, message: Message):
-    wait = await message.reply("Fetching.....")
-    stats = "**Here is total stats of me!** \n\n"
-    stats += f"Total Chats: `{len(ALL_GROUPS)}` \n"
-    stats += f"Total users: `{len(TOTAL_USERS)}` \n"
-    stats += f"Disabled chats: `{len(DISABLE_CHATS)}` \n"
-    stats += f"Total Media active chats: `{len(MEDIA_GROUPS)}` \n\n"
-    await wait.edit_text(stats)
+
 
 FORBIDDEN_KEYWORDS = ["baap", "beta", "Batichod", "hydrogen", "energy", "Gand", "papa", "porn", "xxx", "sex", "Bahenchod", "XII", "page", "Madarchod", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt"]
 
@@ -156,33 +144,7 @@ async def handle_message(client, message):
         await message.reply_text(f"@{message.from_user.username} 𝖣𝗈𝗇'𝗍 𝗌𝖾𝗇𝖽 𝗇𝖾𝗑𝗍 𝗍𝗂𝗆𝖾!")
 
 
-@bot.on_message(filters.user(OWNER_ID) & filters.command(["bcast"]))
-async def broadcast_message(_, message: Message):
-    broadcast_text = ' '.join(message.command[1:])
-    if not broadcast_text:
-        await message.reply("Please provide a message to broadcast.")
-        return
-    
-    success = 0
-    failure = 0
-    
-    # Broadcast to all users
-    for user_id in TOTAL_USERS:
-        try:
-            await bot.send_message(user_id, broadcast_text)
-            success += 1
-        except Exception:
-            failure += 1
 
-    # Broadcast to all groups
-    for group_id in ALL_GROUPS:
-        try:
-            await bot.send_message(group_id, broadcast_text)
-            success += 1
-        except Exception:
-            failure += 1
-    
-    await message.reply(f"Broadcast completed: {success} success, {failure} failure.")
 
 @bot.on_message(filters.document)
 async def delete_pdf_files(_, message: Message):
