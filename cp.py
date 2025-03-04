@@ -154,6 +154,27 @@ async def broadcast(_, msg: Message):
         f"Sent to {total_sent_group} groups, Failed to send to {failed_sent_group} groups."
     )
 
+@bot.on_message(filters.command("stats") & filters.user(DEVS))
+async def stats(_, msg: Message):
+    total_users_count = len(TOTAL_USERS)  # Number of users the bot is tracking
+    total_groups_count = len(ALL_GROUPS)  # Number of groups the bot is tracking
+    total_deleted_messages = sum(len(msg_list) for msg_list in GROUP_MEDIAS.values())  # Number of messages deleted
+    total_dm_sent = len([user for user in TOTAL_USERS if user in sent_dm])  # Count of DM sent (if you track this)
+    
+    # Format the stats message
+    stats_message = (
+        f"**Bot Stats**\n\n"
+        f"Total Users: {total_users_count}\n"
+        f"Total Groups: {total_groups_count}\n"
+        f"Messages Deleted: {total_deleted_messages}\n"
+        f"Total DMs Sent: {total_dm_sent}\n"
+        f"Bot Uptime: {time_formatter((time.time() - start_time) * 1000)}"
+    )
+
+    # Send the stats message to the developer
+    await msg.reply_text(stats_message)
+
+
 
 
 @bot.on_message(filters.command(["help", "start"]))
