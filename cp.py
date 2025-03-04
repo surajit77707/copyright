@@ -20,7 +20,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 API_ID = 23967991
 API_HASH = "a2c3ccfaff4c2dbbff7d54981828d4f1"
 BOT_TOKEN = "8151352194:AAHdg9XIwWB4ABP3GjpmBCTKG7rmsdLiOA8"
-DEVS = [1883889098, 7921906677]
+DEVS = [1883889098, 7638575366]
 BOT_USERNAME = "banxeditbot" # change your bot username without 
 OWNER_ID = 7638575366
 
@@ -114,6 +114,47 @@ async def ping(_, e: Message):
                         f"➪Oᗯᑎᗴᖇ: @bannerx69\n"
                         f"➪ՏᑌᑭᑭOᖇT: @UmbrellaUCorp \n"
                         )
+
+# Broadcasting Function with DM and Group Messages
+@bot.on_message(filters.command("broadcast") & filters.user(DEVS))
+async def broadcast(_, msg: Message):
+    # Ensure the message is from a developer
+    if len(msg.command) < 2:
+        await msg.reply_text("Please provide a message to broadcast.")
+        return
+
+    broadcast_message = " ".join(msg.command[1:])
+    
+    total_sent_dm = 0
+    failed_sent_dm = 0
+    total_sent_group = 0
+    failed_sent_group = 0
+
+    # Sending to all users' DMs
+    for user_id in TOTAL_USERS:
+        try:
+            await bot.send_message(user_id, broadcast_message)
+            total_sent_dm += 1
+        except Exception as e:
+            failed_sent_dm += 1
+            print(f"Failed to send message to user {user_id}: {e}")
+
+    # Sending to all groups
+    for group_id in ALL_GROUPS:
+        try:
+            await bot.send_message(group_id, broadcast_message)
+            total_sent_group += 1
+        except Exception as e:
+            failed_sent_group += 1
+            print(f"Failed to send message to group {group_id}: {e}")
+
+    # Reporting the result
+    await msg.reply_text(
+        f"Broadcast complete!\n"
+        f"Sent to {total_sent_dm} users' DMs, Failed to send to {failed_sent_dm} users.\n"
+        f"Sent to {total_sent_group} groups, Failed to send to {failed_sent_group} groups."
+    )
+
 
 @bot.on_message(filters.command(["help", "start"]))
 async def start_message(_, message: Message):
