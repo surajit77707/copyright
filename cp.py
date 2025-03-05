@@ -159,7 +159,7 @@ DELETE_KEYWORDS = ["baap", "beta", "Batichod", "hydrogen", "energy", "Gand", "pa
 
 "experiment",
 
-"Vibrational",",
+"Vibrational",
 "Monoatomic",
 "Frictionless",
 "Adiabatically",
