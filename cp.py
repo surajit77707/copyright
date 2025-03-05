@@ -32,7 +32,163 @@ GROUP_MEDIAS = {}
 APPROVED_USERS = []
 
 
-DELETE_KEYWORDS = ["baap", "beta", "Batichod", "hydrogen", "energy", "Gand", "papa", "porn", "xxx", "sex", "Bahenchod", "XII", "page", "Madarchod", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt"]
+DELETE_KEYWORDS = ["baap", "beta", "Batichod", "hydrogen", "energy", "Gand", "papa", "porn", "xxx", "sex", "Bahenchod", "XII", "page", "Madarchod", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt","🅐‌» 
+🄰🄻🄻🄴🄽 
+🅲🅻🅰🆂🆂🆁🅾🅾🅼 
+🅲🅾🅽🆃🅰🅲🆃
+🅿🆁🅾🅶🆁🅰🅼🅼🅴
+🅒🅐🅡🅔🅔🅡 
+🅘🅝🅢🅣🅘🅣🅤🅣🅔
+🅑🅐🅣🅗  🅢🅔🅔🅢 🅐 🅞🅢🅔 🅣🅢🅣
+🅐🅒🅐🅓🅔🅜🅘🅒 
+🅢🅔🅢🅢🅘🅞🅝
+🅐🅛🅛🅔🅝 
+🅒🅛🅐🅢🅢🅡🅞🅞🅜 🅒🅞🅝🅣🅐🅒🅣
+🅿🆁🅾🅶🆁🅰🅼🅼🅴
+🅲🅰🆁🅴🅴🆁 
+🅸🅽🆂🆃🅸🆃🆄🆃🅴
+🅑🅐🅣🅗 
+🅢🅔🅔🅢 🅐 🅞🅢🅔 🅣🅢🅣 
+🅐🅒🅐🅓🅔🅜🅘🅒
+🅢🅔🅢🅢🅘🅞🅝
+➋⓿➋➌
+➋⓿➋➍
+🅔🅝🅣🅗🅤🅢🅘🅐🅢🅣
+🅛🅔🅐🅓🅔🅡  
+🅐🅒🅗🅘🅔🅥🅔🅡 
+🅒🅞🅤🅡🅢🅔
+🅟🅗🅐🅢🅔 
+🅢🅡🅛-➋
+🅣🅐🅡🅖🅔🅣
+🅟🅡🅔
+🅜🅔🅓🅘🅒🅐🅛
+➋⓿➋➊
+🅃🄴🅂🅃 
+🅃🅈🄿🄴
+🄼🄸🄽🄾🅁 🅃🄴🅂🅃 
+🄿🄰🅃🅃🄴🅁🄽
+🄽🄴🄴🅃 
+🅄🄶","Module 
+module
+Porn 
+porn
+Sex 
+sex
+Allen 
+allen
+Physicswala
+physicswala
+
+Rigid
+
+rigid
+
+𝕮𝕬𝖑𝖑𝖊𝖓
+𝕻𝖆𝖌𝖊 
+=Â»
+𝕷𝕬𝕾𝕾𝕽𝕺𝕺𝕸 𝕮𝕺𝕹𝕿𝕬𝕮𝕿 𝕻𝕽𝕺𝕲𝕽𝕬𝕸𝕸𝕰
+𝕮𝕬𝕽𝕰𝕰𝕽 𝕴𝕹𝕾𝕿𝕴𝕿𝖀𝕿𝕰
+𝕬𝖈𝖆𝖉𝖊𝖒𝖎𝖈 𝕾𝖊𝖘𝖘𝖎𝖔𝖓 
+𝕰𝖓𝖙𝖍𝖚𝖘𝖎𝖆𝖘𝖙
+𝕷𝖊𝖆𝖉𝖊𝖗 
+ 𝕬𝖈𝖍𝖎𝖊𝖛𝖊𝖗
+ 𝕮𝖔𝖚𝖗𝖘𝖊
+𝕻𝕳𝕬𝕾𝕰
+ 𝕾𝕽𝕷
+𝕿𝕬𝕽𝕲𝕰𝕿 
+𝕻𝕽𝕰-𝕸𝕰𝕯𝕴𝕮𝕬𝕷 
+𝕿𝖊𝖘𝖙 𝕿𝖞𝖕𝖊 
+𝕸𝕴𝕹𝕺𝕽 𝕿𝖊𝖘𝖙 𝕻𝖆𝖙𝖙𝖊𝖗𝖓 
+𝕹𝕰𝕰𝕿 (𝖀𝕲)
+𝕿𝕰𝕾𝕿 𝕯𝕬𝕿𝕰 
+>
+<
+=
+𝕾𝕰𝕮𝕿𝕴𝕺𝕹-𝕬 
+𝕹𝖔
+ 𝖒𝖊𝖎𝖔𝖙𝖎𝖈 
+𝖉𝖎𝖛𝖎𝖘𝖎𝖔𝖓𝖘 
+𝖗𝖊𝖖𝖚𝖎𝖗𝖊𝖉 
+𝖘𝖊𝖊𝖉𝖘 
+𝖆𝖓𝖌𝖎𝖔𝖘𝖕𝖊𝖗𝖒 
+𝖓𝖚𝖒𝖇𝖊𝖗
+ 𝕬𝖓𝖘
+ 𝖕𝖆𝖌𝖊 
+ 𝕹𝕮𝕰𝕽𝕿 𝖃𝕴𝕴
+
+Keywords
+
+negligible
+particle
+collision
+initial
+velocity
+coefficient
+restitution
+velocities 
+collide 
+dimension  
+velocities
+collision            
+m/s
+
+Acceleration
+Quantity
+Measured
+
+Negligible
+Particle
+Collision
+Initial
+Velocity
+Coefficient
+Restitution
+Velocities 
+Collide 
+Dimension  
+Velocities
+Collision            
+m/s
+
+acceleration
+quantity
+measured
+
+Experiment
+
+experiment
+
+Vibrational
+Monoatomic
+Frictionless
+Adiabatically
+Piston
+PHYSICS 
+CHEMISTRY 
+BIOLOGY
+Trachea
+Stapedius
+Sartorius
+Epimysium
+Vrms
+Nitrogen 
+Hydride
+
+vibrational
+monoatomic
+frictionless
+adiabatically
+piston
+physics
+chemistry 
+biology 
+trachea
+stapedius
+sartorius
+epimysium
+vrms
+nitrogen 
+hydride"]
 
 START_MESSAGE = """<b>𝑯𝑬𝒀 𝑮𝑼𝒀 🦍</b>
 
