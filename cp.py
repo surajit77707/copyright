@@ -19,7 +19,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 
 API_ID = 23967991
 API_HASH = "a2c3ccfaff4c2dbbff7d54981828d4f1"
-BOT_TOKEN = "8151352194:AAFZFL1TO2Iuht3W4hoSTl2T3Xk3Y4jCHdA"
+BOT_TOKEN = "8151352194:AAHTVqK2XxhdT9b_EdL-YyQz1Woj4im8pfU"
 DEVS = [1883889098, 7638575366]
 BOT_USERNAME = "banxeditbot" # change your bot username without 
 OWNER_ID = 7638575366
@@ -111,7 +111,7 @@ async def ping(_, e: Message):
     uptime = time_formatter((time.time() - start_time) * 1000)
     await rep.edit_text(f"🤖 ᑭOᑎᘜ: `{ms}`ᴍs\n"
                         f"➪ᗷᗩᑎᑎᗴᖇ ᐯᗴᖇՏIOᑎ: {python_version}\n"
-                        f"➪Oᗯᑎᗴᖇ: @bannerx69\n"
+                        f"➪Oᗯᑎᗴᖇ: @Ban6king9\n"
                         f"➪ՏᑌᑭᑭOᖇT: @UmbrellaUCorp \n"
                         )
 
