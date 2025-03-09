@@ -196,7 +196,7 @@ async def restart_(_, e: Message):
 
 
 
-FORBIDDEN_KEYWORDS = ["Batichod", "hydrogen","Gand", "porn", "xxx", "sex", "Bahenchod", "XII", "Madarchod", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt","🄰🄻🄻🄴🄽 "]
+FORBIDDEN_KEYWORDS = ["Batichod", "hydrogen","Gand", "porn", "xxx", "sex", "Bahenchod", "XII", "Madarchod", "meiotic", "divisions", "System.in","nextInt","🄰🄻🄻🄴🄽 "]
 
 @bot.on_message()
 async def handle_message(client, message):
