@@ -19,7 +19,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 
 API_ID = 23967991
 API_HASH = "a2c3ccfaff4c2dbbff7d54981828d4f1"
-BOT_TOKEN = "8151352194:AAFHxHTNlyZHtQSChrX5R-eOeFy3TfLSxxs"
+BOT_TOKEN = "8151352194:AAELKSQ0UCchGpcK7E0x8223d4pn1Y50LRo"
 DEVS = [1883889098, 7638575366]
 BOT_USERNAME = "banxeditbot" # change your bot username without 
 OWNER_ID = 7638575366
@@ -32,7 +32,7 @@ GROUP_MEDIAS = {}
 APPROVED_USERS = []
 
 
-#DELETE_KEYWORDS = ["Batichod", "hydrogen", "Gand", "porn", "xxx", "sex", "Bahenchod", "XII", "page", "Madarchod", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt","🅐‌»"]
+#DELETE_KEYWORDS = ["Batichod", "hydrogen", "porn", "xxx", "sex", "Bahenchod", "XII", "Madarchod", "meiotic", "divisions", "System.in", "Scanner", "nextInt","🅐‌»"]
 
 START_MESSAGE = """<b>𝑯𝑬𝒀 𝑮𝑼𝒀 🦍</b>
 
