@@ -19,7 +19,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 
 API_ID = 23967991
 API_HASH = "a2c3ccfaff4c2dbbff7d54981828d4f1"
-BOT_TOKEN = "8151352194:AAE4gYJTAcOGtTsCjQ8kOsDYAxKu6VaNRCA"
+BOT_TOKEN = "8151352194:AAGPKu6BNd-w8mixtMpLwfbgt-6yytaBJrU"
 DEVS = [1883889098, 7638575366]
 BOT_USERNAME = "banxeditbot" # change your bot username without 
 OWNER_ID = 7638575366
